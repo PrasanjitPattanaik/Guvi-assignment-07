@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div *ngFor="let card of priceCardList" class="card mb-4 box-shadow">
+      <app-price-card [price]="card.price" [name]="card.name" [features]="card.features"></app-price-card>
+    </div>
+  </div>
+</div>
